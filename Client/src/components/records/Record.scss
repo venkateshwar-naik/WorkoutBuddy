@@ -1,0 +1,35 @@
+.record{
+    background: white;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 7px;
+    position: relative;
+    gap: 10px;
+    // box-shadow: rgba(kk);
+    padding: 10px 30px;
+    margin-bottom: 10px;
+    .btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        position:absolute;
+        top: 10px;
+        right: 10px;
+    }
+    .btns{
+        padding: 6px 10px;
+        border-radius: 4px;
+        width: 50px;
+        height: 40px;
+        cursor: pointer;
+
+    }
+
+}
+
+
+
